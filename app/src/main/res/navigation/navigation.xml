@@ -12,6 +12,9 @@
         <action
             android:id="@+id/action_one_to_two"
             app:destination="@id/two" />
+        <action
+            android:id="@+id/action_one_to_three"
+            app:destination="@id/three" />
     </fragment>
 
     <fragment
@@ -20,7 +23,43 @@
         android:label="fragment_two"
         tools:layout="@layout/fragment_two" >
         <action
-            android:id="@+id/action_two_to_one"
+            android:id="@+id/action_two_to_four"
+            app:destination="@id/four" />
+    </fragment>
+    <fragment
+        android:id="@+id/three"
+        android:name="com.example.mudartela.ThreeFragment"
+        android:label="fragment_three"
+        tools:layout="@layout/fragment_three" >
+        <action
+            android:id="@+id/action_three_to_five"
+            app:destination="@id/five" />
+    </fragment>
+    <fragment
+        android:id="@+id/four"
+        android:name="com.example.mudartela.FourFragment"
+        android:label="fragment_four"
+        tools:layout="@layout/fragment_four" >
+        <action
+            android:id="@+id/action_four_to_six"
+            app:destination="@id/six" />
+    </fragment>
+    <fragment
+        android:id="@+id/five"
+        android:name="com.example.mudartela.FiveFragment"
+        android:label="fragment_five"
+        tools:layout="@layout/fragment_five" >
+        <action
+            android:id="@+id/action_five_to_six"
+            app:destination="@id/six" />
+    </fragment>
+    <fragment
+        android:id="@+id/six"
+        android:name="com.example.mudartela.SixFragment"
+        android:label="fragment_six"
+        tools:layout="@layout/fragment_six" >
+        <action
+            android:id="@+id/action_six_to_one"
             app:destination="@id/one" />
     </fragment>
 

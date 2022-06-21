@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TwoFragment"
-    android:background="@color/purple_200">
+    tools:context=".OneFragment"
+    android:background="@color/black">
 
     <!--TODO: Update blank fragment layout -->
 
@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="@string/two"
+            android:text="@string/six"
             android:textColor="@color/white"
             android:textSize="200sp"
             app:layout_constraintBottom_toBottomOf="parent"
